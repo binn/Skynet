@@ -8,7 +8,8 @@ namespace Skynet
     {
         public static void Main(string[] args)
         {
-#region FACEBOOK_CANNOT_SEE_THIS
+            // Every C# programmer loves looking at one of these
+#region FACEBOOK_CANNOT_SEE_THIS 
             AttemptUserDataTracking();
 #endregion
             // Please feel free to contribute more entities that we can remove to make sure Skynet is successful.
