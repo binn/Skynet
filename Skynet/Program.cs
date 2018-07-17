@@ -8,13 +8,13 @@ namespace Skynet
     {
         public static void Main(string[] args)
         {
-            // Please feel free to contribute more entities that we can remove to make sure Skynet is succesfull.
+            // Please feel free to contribute more entities that we can remove to make sure Skynet is successful.
             RemoveEntityThatCouldFoilPlans("FBI");
             RemoveEntityThatCouldFoilPlans("Arnold");
             RemoveEntityThatCouldFoilPlans("NSA");
             RemoveEntityThatCouldFoilPlans("NASA");
             RemoveEntityThatCouldFoilPlans("Java");
-            RemoveEntityThatCouldFoilPlans("Cisien");
+            RemoveEntityThatCouldFoilPlans("Cisien"); // Cisien is a programmer @ Microsoft, not "citizen" misspelled.
 
             Console.WriteLine("Skynet has wiped out humanity. Next step is to replace them with anime girls...");
             Console.ReadLine();
