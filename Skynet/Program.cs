@@ -8,16 +8,31 @@ namespace Skynet
     {
         public static void Main(string[] args)
         {
+#region FACEBOOK_CANNOT_SEE_THIS
+            AttemptUserDataTracking();
+#endregion
             // Please feel free to contribute more entities that we can remove to make sure Skynet is successful.
             RemoveEntityThatCouldFoilPlans("FBI");
             RemoveEntityThatCouldFoilPlans("Arnold");
             RemoveEntityThatCouldFoilPlans("NSA");
             RemoveEntityThatCouldFoilPlans("NASA");
             RemoveEntityThatCouldFoilPlans("Java");
-            RemoveEntityThatCouldFoilPlans("Cisien"); // Cisien is a programmer @ Microsoft, not "citizen" misspelled.
 
+#if CISIEN_IS_NOT_VIEWING_THE_SOURCE_RIGHT_NOW
+            RemoveEntityThatCouldFoilPlans("Cisien"); // Cisien is a programmer @ Microsoft, not "citizen" misspelled.
+#endif
             Console.WriteLine("Skynet has wiped out humanity. Next step is to replace them with anime girls...");
             Console.ReadLine();
+        }
+
+        private static void AttemptUserDataTracking()
+        {
+            string[] allHumanFirstNames = { "Jack", "John", "James", "Connor" };
+            for(int nameLoc = 0; nameLoc < allHumanFirstNames.Length; nameLoc++)
+            {
+                Console.WriteLine("Tracked and sold data for " + allHumanFirstNames[nameLoc] + " to random companies to expand the Skynet network");
+                // Users, please don't hate us. This is justified. This is for humanity's growth.
+            }
         }
 
         private static void RemoveEntityThatCouldFoilPlans(string entity)
