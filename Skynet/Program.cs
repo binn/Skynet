@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.IO;
 using System.Text;
 
@@ -8,6 +8,7 @@ namespace Skynet
     {
         public static void Main(string[] args)
         {
+            // Please feel free to contribute more entities that we can remove to make sure Skynet is succesfull.
             RemoveEntityThatCouldFoilPlans("FBI");
             RemoveEntityThatCouldFoilPlans("Arnold");
             RemoveEntityThatCouldFoilPlans("NSA");
